@@ -1,6 +1,6 @@
 {
   "name": "@abercrave/component-library",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "dist/abercrave-component-library.ssr.js",
   "browser": "dist/abercrave-component-library.esm.js",
