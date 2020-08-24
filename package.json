@@ -1,5 +1,5 @@
 {
-  "name": "abercrave-component-library",
+  "name": "@abercrave/component-library",
   "version": "1.0.0",
   "description": "",
   "main": "dist/abercrave-component-library.ssr.js",
@@ -10,6 +10,10 @@
     "dist/*",
     "src/**/*.vue"
   ],
+  "publishConfig": { 
+    "registry": "https://npm.pkg.github.com/" 
+  },
+  "repository": "git://github.com/abercrave/abercrave-component-library.git",
   "scripts": {
     "serve": "vue-cli-service serve dev/serve.js",
     "build": "cross-env NODE_ENV=production rollup --config build/rollup.config.js",
