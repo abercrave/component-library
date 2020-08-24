@@ -1,6 +1,6 @@
 {
   "name": "@abercrave/component-library",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/abercrave-component-library.ssr.js",
   "browser": "dist/abercrave-component-library.esm.js",
@@ -13,7 +13,7 @@
   "publishConfig": { 
     "registry": "https://npm.pkg.github.com/" 
   },
-  "repository": "git://github.com/abercrave/abercrave-component-library.git",
+  "repository": "git://github.com/abercrave/component-library.git",
   "scripts": {
     "serve": "vue-cli-service serve dev/serve.js",
     "build": "cross-env NODE_ENV=production rollup --config build/rollup.config.js",
@@ -43,6 +43,6 @@
     "vue": "^2.6.11"
   },
   "engines": {
-    "node": ">=10"
+    "node": ">=12"
   }
 }
